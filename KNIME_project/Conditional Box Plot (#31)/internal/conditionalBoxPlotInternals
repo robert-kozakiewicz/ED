@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="conditionalBoxPlotInternals">
+<entry key="nrOfCols" type="xint" value="2"/>
+<config key="col0">
+<entry key="column_name" type="xstring" value="F"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="16.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="94.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="col1">
+<entry key="column_name" type="xstring" value="M"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="16.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="95.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="numColSpec">
+<entry key="column_name" type="xstring" value="Age at Violation"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<config key="org.knime.core.data.def.IntCell">
+<entry key="IntCell" type="xint" value="16"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<config key="org.knime.core.data.def.IntCell">
+<entry key="IntCell" type="xint" value="95"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="statsF">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="16.0"/>
+<entry key="1" type="xdouble" value="16.0"/>
+<entry key="2" type="xdouble" value="24.0"/>
+<entry key="3" type="xdouble" value="33.0"/>
+<entry key="4" type="xdouble" value="46.0"/>
+<entry key="5" type="xdouble" value="79.0"/>
+<entry key="6" type="xdouble" value="94.0"/>
+</config>
+<config key="mildKeysF0">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="Row58800"/>
+<entry key="1" type="xstring" value="Row25194"/>
+<entry key="2" type="xstring" value="Row89381"/>
+<entry key="3" type="xstring" value="Row71485"/>
+<entry key="4" type="xstring" value="Row91407"/>
+<entry key="5" type="xstring" value="Row104174"/>
+<entry key="6" type="xstring" value="Row59746"/>
+<entry key="7" type="xstring" value="Row101797"/>
+<entry key="8" type="xstring" value="Row51792"/>
+<entry key="9" type="xstring" value="Row81359"/>
+<entry key="10" type="xstring" value="Row23761"/>
+<entry key="11" type="xstring" value="Row52250"/>
+</config>
+<config key="mildKeysF1">
+<entry key="array-size" type="xint" value="13"/>
+<entry key="0" type="xstring" value="Row130062"/>
+<entry key="1" type="xstring" value="Row57481"/>
+<entry key="2" type="xstring" value="Row2747"/>
+<entry key="3" type="xstring" value="Row12293"/>
+<entry key="4" type="xstring" value="Row10748"/>
+<entry key="5" type="xstring" value="Row100567"/>
+<entry key="6" type="xstring" value="Row78039"/>
+<entry key="7" type="xstring" value="Row132083"/>
+<entry key="8" type="xstring" value="Row47004"/>
+<entry key="9" type="xstring" value="Row28397"/>
+<entry key="10" type="xstring" value="Row138668"/>
+<entry key="11" type="xstring" value="Row81914"/>
+<entry key="12" type="xstring" value="Row114797"/>
+</config>
+<config key="mildKeysF2">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xstring" value="Row76399"/>
+<entry key="1" type="xstring" value="Row94354"/>
+<entry key="2" type="xstring" value="Row18710"/>
+<entry key="3" type="xstring" value="Row112718"/>
+<entry key="4" type="xstring" value="Row6247"/>
+<entry key="5" type="xstring" value="Row56162"/>
+<entry key="6" type="xstring" value="Row71346"/>
+<entry key="7" type="xstring" value="Row24582"/>
+<entry key="8" type="xstring" value="Row27044"/>
+</config>
+<config key="mildKeysF3">
+<entry key="array-size" type="xint" value="13"/>
+<entry key="0" type="xstring" value="Row71125"/>
+<entry key="1" type="xstring" value="Row16821"/>
+<entry key="2" type="xstring" value="Row125485"/>
+<entry key="3" type="xstring" value="Row56095"/>
+<entry key="4" type="xstring" value="Row61198"/>
+<entry key="5" type="xstring" value="Row46211"/>
+<entry key="6" type="xstring" value="Row36005"/>
+<entry key="7" type="xstring" value="Row95681"/>
+<entry key="8" type="xstring" value="Row16937"/>
+<entry key="9" type="xstring" value="Row16309"/>
+<entry key="10" type="xstring" value="Row76063"/>
+<entry key="11" type="xstring" value="Row122174"/>
+<entry key="12" type="xstring" value="Row1944"/>
+</config>
+<config key="mildKeysF4">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xstring" value="Row121571"/>
+<entry key="1" type="xstring" value="Row16556"/>
+<entry key="2" type="xstring" value="Row127277"/>
+<entry key="3" type="xstring" value="Row103527"/>
+<entry key="4" type="xstring" value="Row34127"/>
+<entry key="5" type="xstring" value="Row116689"/>
+<entry key="6" type="xstring" value="Row127104"/>
+<entry key="7" type="xstring" value="Row110963"/>
+<entry key="8" type="xstring" value="Row112322"/>
+<entry key="9" type="xstring" value="Row2164"/>
+</config>
+<config key="mildKeysF5">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Row14794"/>
+<entry key="1" type="xstring" value="Row126471"/>
+<entry key="2" type="xstring" value="Row20142"/>
+<entry key="3" type="xstring" value="Row122077"/>
+</config>
+<config key="mildKeysF6">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="Row135459"/>
+<entry key="1" type="xstring" value="Row2546"/>
+<entry key="2" type="xstring" value="Row117238"/>
+<entry key="3" type="xstring" value="Row24368"/>
+<entry key="4" type="xstring" value="Row98270"/>
+<entry key="5" type="xstring" value="Row5322"/>
+<entry key="6" type="xstring" value="Row96297"/>
+</config>
+<config key="mildKeysF7">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xstring" value="Row109627"/>
+<entry key="1" type="xstring" value="Row68271"/>
+<entry key="2" type="xstring" value="Row80874"/>
+<entry key="3" type="xstring" value="Row98964"/>
+<entry key="4" type="xstring" value="Row46757"/>
+<entry key="5" type="xstring" value="Row38782"/>
+<entry key="6" type="xstring" value="Row128869"/>
+<entry key="7" type="xstring" value="Row60940"/>
+<entry key="8" type="xstring" value="Row55352"/>
+</config>
+<config key="mildKeysF8">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Row75400"/>
+<entry key="1" type="xstring" value="Row91399"/>
+<entry key="2" type="xstring" value="Row729"/>
+</config>
+<config key="mildKeysF9">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Row127101"/>
+<entry key="1" type="xstring" value="Row57392"/>
+<entry key="2" type="xstring" value="Row132993"/>
+</config>
+<config key="mildKeysF10">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row20318"/>
+<entry key="1" type="xstring" value="Row51128"/>
+</config>
+<config key="mildKeysF11">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Row11058"/>
+<entry key="1" type="xstring" value="Row58075"/>
+<entry key="2" type="xstring" value="Row128389"/>
+</config>
+<config key="mildKeysF12">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Row32850"/>
+<entry key="1" type="xstring" value="Row96744"/>
+<entry key="2" type="xstring" value="Row35581"/>
+</config>
+<config key="mildKeysF13">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row37643"/>
+<entry key="1" type="xstring" value="Row88195"/>
+</config>
+<config key="mildF">
+<entry key="array-size" type="xint" value="14"/>
+<entry key="0" type="xdouble" value="80.0"/>
+<entry key="1" type="xdouble" value="81.0"/>
+<entry key="2" type="xdouble" value="82.0"/>
+<entry key="3" type="xdouble" value="83.0"/>
+<entry key="4" type="xdouble" value="84.0"/>
+<entry key="5" type="xdouble" value="85.0"/>
+<entry key="6" type="xdouble" value="86.0"/>
+<entry key="7" type="xdouble" value="87.0"/>
+<entry key="8" type="xdouble" value="88.0"/>
+<entry key="9" type="xdouble" value="89.0"/>
+<entry key="10" type="xdouble" value="90.0"/>
+<entry key="11" type="xdouble" value="91.0"/>
+<entry key="12" type="xdouble" value="92.0"/>
+<entry key="13" type="xdouble" value="94.0"/>
+</config>
+<config key="extremeF">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsM">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="16.0"/>
+<entry key="1" type="xdouble" value="16.0"/>
+<entry key="2" type="xdouble" value="24.0"/>
+<entry key="3" type="xdouble" value="33.0"/>
+<entry key="4" type="xdouble" value="46.0"/>
+<entry key="5" type="xdouble" value="79.0"/>
+<entry key="6" type="xdouble" value="95.0"/>
+</config>
+<config key="mildKeysM0">
+<entry key="array-size" type="xint" value="35"/>
+<entry key="0" type="xstring" value="Row115120"/>
+<entry key="1" type="xstring" value="Row45188"/>
+<entry key="2" type="xstring" value="Row79698"/>
+<entry key="3" type="xstring" value="Row82090"/>
+<entry key="4" type="xstring" value="Row23236"/>
+<entry key="5" type="xstring" value="Row53480"/>
+<entry key="6" type="xstring" value="Row98413"/>
+<entry key="7" type="xstring" value="Row115307"/>
+<entry key="8" type="xstring" value="Row62640"/>
+<entry key="9" type="xstring" value="Row126948"/>
+<entry key="10" type="xstring" value="Row59450"/>
+<entry key="11" type="xstring" value="Row15201"/>
+<entry key="12" type="xstring" value="Row101413"/>
+<entry key="13" type="xstring" value="Row86789"/>
+<entry key="14" type="xstring" value="Row16051"/>
+<entry key="15" type="xstring" value="Row17246"/>
+<entry key="16" type="xstring" value="Row127042"/>
+<entry key="17" type="xstring" value="Row11787"/>
+<entry key="18" type="xstring" value="Row20526"/>
+<entry key="19" type="xstring" value="Row80420"/>
+<entry key="20" type="xstring" value="Row83249"/>
+<entry key="21" type="xstring" value="Row72061"/>
+<entry key="22" type="xstring" value="Row12922"/>
+<entry key="23" type="xstring" value="Row121936"/>
+<entry key="24" type="xstring" value="Row59601"/>
+<entry key="25" type="xstring" value="Row77430"/>
+<entry key="26" type="xstring" value="Row94981"/>
+<entry key="27" type="xstring" value="Row135026"/>
+<entry key="28" type="xstring" value="Row99515"/>
+<entry key="29" type="xstring" value="Row125895"/>
+<entry key="30" type="xstring" value="Row40738"/>
+<entry key="31" type="xstring" value="Row130736"/>
+<entry key="32" type="xstring" value="Row127295"/>
+<entry key="33" type="xstring" value="Row60461"/>
+<entry key="34" type="xstring" value="Row106942"/>
+</config>
+<config key="mildKeysM1">
+<entry key="array-size" type="xint" value="31"/>
+<entry key="0" type="xstring" value="Row57087"/>
+<entry key="1" type="xstring" value="Row8697"/>
+<entry key="2" type="xstring" value="Row88390"/>
+<entry key="3" type="xstring" value="Row69312"/>
+<entry key="4" type="xstring" value="Row131272"/>
+<entry key="5" type="xstring" value="Row116082"/>
+<entry key="6" type="xstring" value="Row132629"/>
+<entry key="7" type="xstring" value="Row61102"/>
+<entry key="8" type="xstring" value="Row47669"/>
+<entry key="9" type="xstring" value="Row25050"/>
+<entry key="10" type="xstring" value="Row32916"/>
+<entry key="11" type="xstring" value="Row95808"/>
+<entry key="12" type="xstring" value="Row17184"/>
+<entry key="13" type="xstring" value="Row95809"/>
+<entry key="14" type="xstring" value="Row37313"/>
+<entry key="15" type="xstring" value="Row112629"/>
+<entry key="16" type="xstring" value="Row60155"/>
+<entry key="17" type="xstring" value="Row11842"/>
+<entry key="18" type="xstring" value="Row107971"/>
+<entry key="19" type="xstring" value="Row109720"/>
+<entry key="20" type="xstring" value="Row125848"/>
+<entry key="21" type="xstring" value="Row51386"/>
+<entry key="22" type="xstring" value="Row73416"/>
+<entry key="23" type="xstring" value="Row71157"/>
+<entry key="24" type="xstring" value="Row91384"/>
+<entry key="25" type="xstring" value="Row113644"/>
+<entry key="26" type="xstring" value="Row130345"/>
+<entry key="27" type="xstring" value="Row98188"/>
+<entry key="28" type="xstring" value="Row131935"/>
+<entry key="29" type="xstring" value="Row127179"/>
+<entry key="30" type="xstring" value="Row84891"/>
+</config>
+<config key="mildKeysM2">
+<entry key="array-size" type="xint" value="25"/>
+<entry key="0" type="xstring" value="Row39180"/>
+<entry key="1" type="xstring" value="Row114379"/>
+<entry key="2" type="xstring" value="Row91911"/>
+<entry key="3" type="xstring" value="Row29149"/>
+<entry key="4" type="xstring" value="Row93002"/>
+<entry key="5" type="xstring" value="Row129633"/>
+<entry key="6" type="xstring" value="Row28947"/>
+<entry key="7" type="xstring" value="Row121820"/>
+<entry key="8" type="xstring" value="Row15321"/>
+<entry key="9" type="xstring" value="Row110067"/>
+<entry key="10" type="xstring" value="Row8036"/>
+<entry key="11" type="xstring" value="Row77730"/>
+<entry key="12" type="xstring" value="Row130835"/>
+<entry key="13" type="xstring" value="Row35841"/>
+<entry key="14" type="xstring" value="Row14667"/>
+<entry key="15" type="xstring" value="Row107208"/>
+<entry key="16" type="xstring" value="Row88133"/>
+<entry key="17" type="xstring" value="Row52854"/>
+<entry key="18" type="xstring" value="Row119452"/>
+<entry key="19" type="xstring" value="Row108641"/>
+<entry key="20" type="xstring" value="Row16121"/>
+<entry key="21" type="xstring" value="Row138340"/>
+<entry key="22" type="xstring" value="Row44797"/>
+<entry key="23" type="xstring" value="Row97424"/>
+<entry key="24" type="xstring" value="Row71366"/>
+</config>
+<config key="mildKeysM3">
+<entry key="array-size" type="xint" value="20"/>
+<entry key="0" type="xstring" value="Row63685"/>
+<entry key="1" type="xstring" value="Row38194"/>
+<entry key="2" type="xstring" value="Row42804"/>
+<entry key="3" type="xstring" value="Row23061"/>
+<entry key="4" type="xstring" value="Row66875"/>
+<entry key="5" type="xstring" value="Row82820"/>
+<entry key="6" type="xstring" value="Row61445"/>
+<entry key="7" type="xstring" value="Row57942"/>
+<entry key="8" type="xstring" value="Row5053"/>
+<entry key="9" type="xstring" value="Row58291"/>
+<entry key="10" type="xstring" value="Row93146"/>
+<entry key="11" type="xstring" value="Row35838"/>
+<entry key="12" type="xstring" value="Row114470"/>
+<entry key="13" type="xstring" value="Row20858"/>
+<entry key="14" type="xstring" value="Row50959"/>
+<entry key="15" type="xstring" value="Row76036"/>
+<entry key="16" type="xstring" value="Row97400"/>
+<entry key="17" type="xstring" value="Row23272"/>
+<entry key="18" type="xstring" value="Row72856"/>
+<entry key="19" type="xstring" value="Row29877"/>
+</config>
+<config key="mildKeysM4">
+<entry key="array-size" type="xint" value="19"/>
+<entry key="0" type="xstring" value="Row26620"/>
+<entry key="1" type="xstring" value="Row40780"/>
+<entry key="2" type="xstring" value="Row37550"/>
+<entry key="3" type="xstring" value="Row124217"/>
+<entry key="4" type="xstring" value="Row60912"/>
+<entry key="5" type="xstring" value="Row100879"/>
+<entry key="6" type="xstring" value="Row89391"/>
+<entry key="7" type="xstring" value="Row109226"/>
+<entry key="8" type="xstring" value="Row118034"/>
+<entry key="9" type="xstring" value="Row67049"/>
+<entry key="10" type="xstring" value="Row88549"/>
+<entry key="11" type="xstring" value="Row133017"/>
+<entry key="12" type="xstring" value="Row101875"/>
+<entry key="13" type="xstring" value="Row22971"/>
+<entry key="14" type="xstring" value="Row117809"/>
+<entry key="15" type="xstring" value="Row36618"/>
+<entry key="16" type="xstring" value="Row6594"/>
+<entry key="17" type="xstring" value="Row42426"/>
+<entry key="18" type="xstring" value="Row85659"/>
+</config>
+<config key="mildKeysM5">
+<entry key="array-size" type="xint" value="15"/>
+<entry key="0" type="xstring" value="Row51183"/>
+<entry key="1" type="xstring" value="Row67267"/>
+<entry key="2" type="xstring" value="Row29605"/>
+<entry key="3" type="xstring" value="Row58744"/>
+<entry key="4" type="xstring" value="Row47016"/>
+<entry key="5" type="xstring" value="Row21118"/>
+<entry key="6" type="xstring" value="Row39248"/>
+<entry key="7" type="xstring" value="Row517"/>
+<entry key="8" type="xstring" value="Row124624"/>
+<entry key="9" type="xstring" value="Row105889"/>
+<entry key="10" type="xstring" value="Row47097"/>
+<entry key="11" type="xstring" value="Row57458"/>
+<entry key="12" type="xstring" value="Row75296"/>
+<entry key="13" type="xstring" value="Row48571"/>
+<entry key="14" type="xstring" value="Row66171"/>
+</config>
+<config key="mildKeysM6">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Row42470"/>
+<entry key="1" type="xstring" value="Row7258"/>
+<entry key="2" type="xstring" value="Row77135"/>
+<entry key="3" type="xstring" value="Row47239"/>
+<entry key="4" type="xstring" value="Row79893"/>
+<entry key="5" type="xstring" value="Row101952"/>
+<entry key="6" type="xstring" value="Row110056"/>
+<entry key="7" type="xstring" value="Row26052"/>
+<entry key="8" type="xstring" value="Row34411"/>
+<entry key="9" type="xstring" value="Row61882"/>
+<entry key="10" type="xstring" value="Row7060"/>
+</config>
+<config key="mildKeysM7">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xstring" value="Row24429"/>
+<entry key="1" type="xstring" value="Row128901"/>
+<entry key="2" type="xstring" value="Row124847"/>
+<entry key="3" type="xstring" value="Row110378"/>
+<entry key="4" type="xstring" value="Row52139"/>
+<entry key="5" type="xstring" value="Row66706"/>
+<entry key="6" type="xstring" value="Row60141"/>
+<entry key="7" type="xstring" value="Row71199"/>
+</config>
+<config key="mildKeysM8">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xstring" value="Row22273"/>
+<entry key="1" type="xstring" value="Row132745"/>
+<entry key="2" type="xstring" value="Row127306"/>
+<entry key="3" type="xstring" value="Row71842"/>
+<entry key="4" type="xstring" value="Row82607"/>
+<entry key="5" type="xstring" value="Row82168"/>
+<entry key="6" type="xstring" value="Row37706"/>
+<entry key="7" type="xstring" value="Row18505"/>
+<entry key="8" type="xstring" value="Row88630"/>
+<entry key="9" type="xstring" value="Row35391"/>
+</config>
+<config key="mildKeysM9">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Row67797"/>
+<entry key="1" type="xstring" value="Row25868"/>
+<entry key="2" type="xstring" value="Row1033"/>
+<entry key="3" type="xstring" value="Row34891"/>
+<entry key="4" type="xstring" value="Row4562"/>
+</config>
+<config key="mildKeysM10">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="Row70750"/>
+<entry key="1" type="xstring" value="Row42372"/>
+<entry key="2" type="xstring" value="Row73709"/>
+<entry key="3" type="xstring" value="Row127244"/>
+<entry key="4" type="xstring" value="Row81445"/>
+<entry key="5" type="xstring" value="Row103389"/>
+<entry key="6" type="xstring" value="Row101066"/>
+</config>
+<config key="mildKeysM11">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Row66259"/>
+<entry key="1" type="xstring" value="Row35027"/>
+<entry key="2" type="xstring" value="Row123466"/>
+<entry key="3" type="xstring" value="Row122225"/>
+<entry key="4" type="xstring" value="Row53849"/>
+</config>
+<config key="mildKeysM12">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row88242"/>
+<entry key="1" type="xstring" value="Row58764"/>
+</config>
+<config key="mildKeysM13">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row125337"/>
+</config>
+<config key="mildKeysM14">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row10002"/>
+<entry key="1" type="xstring" value="Row85016"/>
+</config>
+<config key="mildKeysM15">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row115111"/>
+<entry key="1" type="xstring" value="Row1689"/>
+</config>
+<config key="mildM">
+<entry key="array-size" type="xint" value="16"/>
+<entry key="0" type="xdouble" value="80.0"/>
+<entry key="1" type="xdouble" value="81.0"/>
+<entry key="2" type="xdouble" value="82.0"/>
+<entry key="3" type="xdouble" value="83.0"/>
+<entry key="4" type="xdouble" value="84.0"/>
+<entry key="5" type="xdouble" value="85.0"/>
+<entry key="6" type="xdouble" value="86.0"/>
+<entry key="7" type="xdouble" value="87.0"/>
+<entry key="8" type="xdouble" value="88.0"/>
+<entry key="9" type="xdouble" value="89.0"/>
+<entry key="10" type="xdouble" value="90.0"/>
+<entry key="11" type="xdouble" value="91.0"/>
+<entry key="12" type="xdouble" value="92.0"/>
+<entry key="13" type="xdouble" value="93.0"/>
+<entry key="14" type="xdouble" value="94.0"/>
+<entry key="15" type="xdouble" value="95.0"/>
+</config>
+<config key="extremeM">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+</config>
