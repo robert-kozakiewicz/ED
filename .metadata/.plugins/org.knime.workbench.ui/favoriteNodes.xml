@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <favoritenodes>
 <personals/>
-<frequents/>
-<lastused/>
+<frequents>
+<favorite frequency="2" nodeid="org.knime.ext.weka37.knimenodes.WekaNodeSetFactory_weka.classifiers.rules.PART"/>
+<favorite frequency="1" nodeid="org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory"/>
+<favorite frequency="4" nodeid="org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory2"/>
+<favorite frequency="1" nodeid="org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.preproc.colconvert.categorytonumber.CategoryToNumberNodeFactory"/>
+<favorite frequency="2" nodeid="org.knime.base.node.preproc.stringreplacer.StringReplacerNodeFactory"/>
+<favorite frequency="3" nodeid="org.knime.base.node.viz.pie.node.fixed.FixedPieNodeFactory"/>
+<favorite frequency="4" nodeid="org.knime.base.node.preproc.filter.row.RowFilterNodeFactory"/>
+<favorite frequency="3" nodeid="org.knime.ext.weka37.knimenodes.WekaNodeSetFactory_weka.clusterers.EM"/>
+<favorite frequency="1" nodeid="org.knime.base.node.io.csvreader.CSVReaderNodeFactory"/>
+<favorite frequency="4" nodeid="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.preproc.filter.nominal.NominalValueRowFilterNodeFactory"/>
+<favorite frequency="2" nodeid="org.knime.base.node.preproc.colconvert.numbertostring.NumberToStringNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.io.csvwriter.CSVWriterNodeFactory"/>
+<favorite frequency="6" nodeid="org.knime.base.node.viz.table.TableNodeFactory"/>
+<favorite frequency="2" nodeid="org.knime.ext.weka37.knimenodes.WekaNodeSetFactory_weka.classifiers.trees.J48"/>
+</frequents>
+<lastused>
+<favorite nodeid="org.knime.base.node.preproc.colconvert.numbertostring.NumberToStringNodeFactory"/>
+<favorite nodeid="org.knime.base.node.preproc.colconvert.categorytonumber.CategoryToNumberNodeFactory"/>
+<favorite nodeid="org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory"/>
+<favorite nodeid="org.knime.base.node.viz.table.TableNodeFactory"/>
+<favorite nodeid="org.knime.base.node.viz.pie.node.fixed.FixedPieNodeFactory"/>
+<favorite nodeid="org.knime.base.node.io.csvreader.CSVReaderNodeFactory"/>
+<favorite nodeid="org.knime.base.node.io.csvwriter.CSVWriterNodeFactory"/>
+<favorite nodeid="org.knime.base.node.preproc.filter.nominal.NominalValueRowFilterNodeFactory"/>
+<favorite nodeid="org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory"/>
+<favorite nodeid="org.knime.ext.weka37.knimenodes.WekaNodeSetFactory_weka.classifiers.rules.PART"/>
+</lastused>
 </favoritenodes>

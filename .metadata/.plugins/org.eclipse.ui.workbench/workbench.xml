@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="14" version="2.0">
+<workbench progressCount="12" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="25" y="25">
 <fastViewData fastViewLocation="1024"/>
@@ -17,14 +17,26 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="4"/>
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: KNIME_project" title="0: KNIME_project" tooltip="0: KNIME_project" workbook="DefaultEditorWorkbook">
+<editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="3: KNIME_project" title="3: KNIME_project" tooltip="3: KNIME_project" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/KNIME_project/workflow.knime"/>
+</editor>
+<editor activePart="true" focus="true" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="3: KNIME_project2" title="3: KNIME_project2" tooltip="3: KNIME_project2" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/KNIME_project2/KNIME_project2/workflow.knime"/>
+</editor>
+<editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="2: KNIME_project3" title="2: KNIME_project3" tooltip="2: KNIME_project3" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/KNIME_project3/workflow.knime"/>
+</editor>
+<editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: KNIME_project4" title="0: KNIME_project4" tooltip="0: KNIME_project4" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/KNIME_project4/workflow.knime"/>
 </editor>
 </editors>
 <views>
@@ -149,9 +161,66 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project3/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project2/KNIME_project2/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project4/workflow.knime"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project4/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project3/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project4/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project3/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project2/KNIME_project2/workflow.knime"/>
 </editors>
-<item active="true" historyLabel="0: KNIME_project" index="0"/>
+<item historyLabel="3: KNIME_project4" index="2"/>
+<item historyLabel="0: KNIME_project3" index="0"/>
+<item historyLabel="2: KNIME_project2" index="1"/>
+<item historyLabel="3: KNIME_project4" index="2"/>
+<item historyLabel="4: KNIME_project" index="3"/>
+<item historyLabel="0: KNIME_project3" index="0"/>
+<item historyLabel="4: KNIME_project" index="3"/>
+<item historyLabel="2: KNIME_project2" index="1"/>
+<item historyLabel="0: KNIME_project3" index="0"/>
+<item historyLabel="3: KNIME_project4" index="2"/>
+<item historyLabel="4: KNIME_project" index="3"/>
+<item historyLabel="2: KNIME_project2" index="1"/>
+<item historyLabel="4: KNIME_project" index="3"/>
+<item historyLabel="0: KNIME_project3" index="0"/>
+<item historyLabel="3: KNIME_project4" index="2"/>
+<item historyLabel="4: KNIME_project" index="3"/>
+<item historyLabel="0: KNIME_project3" index="0"/>
+<item historyLabel="3: KNIME_project4" index="2"/>
+<item historyLabel="4: KNIME_project" index="3"/>
+<item historyLabel="0: KNIME_project3" index="0"/>
+<item historyLabel="2: KNIME_project2" index="1"/>
+<item historyLabel="0: KNIME_project3" index="0"/>
+<item historyLabel="2: KNIME_project2" index="1"/>
+<item historyLabel="0: KNIME_project3" index="0"/>
+<item historyLabel="2: KNIME_project2" index="1"/>
+<item historyLabel="3: KNIME_project4" index="2"/>
+<item historyLabel="0: KNIME_project3" index="0"/>
+<item historyLabel="3: KNIME_project4" index="2"/>
+<item historyLabel="2: KNIME_project2" index="1"/>
+<item historyLabel="3: KNIME_project4" index="2"/>
+<item historyLabel="2: KNIME_project2" index="1"/>
+<item historyLabel="3: KNIME_project4" index="2"/>
+<item historyLabel="2: KNIME_project2" index="1"/>
+<item historyLabel="0: KNIME_project2" index="1"/>
+<item historyLabel="2: KNIME_project4" index="4"/>
+<item historyLabel="3: KNIME_project" index="5"/>
+<item historyLabel="4: KNIME_project3" index="6"/>
+<item historyLabel="2: KNIME_project4" index="4"/>
+<item historyLabel="0: KNIME_project2" index="1"/>
+<item historyLabel="4: KNIME_project3" index="6"/>
+<item historyLabel="3: KNIME_project" index="5"/>
+<item historyLabel="2: KNIME_project4" index="4"/>
+<item historyLabel="3: KNIME_project" index="5"/>
+<item historyLabel="0: KNIME_project4" index="7"/>
+<item historyLabel="2: KNIME_project3" index="8"/>
+<item historyLabel="3: KNIME_project2" index="9"/>
+<item historyLabel="2: KNIME_project3" index="8"/>
+<item historyLabel="0: KNIME_project4" index="7"/>
+<item active="true" historyLabel="3: KNIME_project2" index="9"/>
 </navigationHistory>
 </page>
 <workbenchWindowAdvisor/>
@@ -167,6 +236,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/KNIME_project4/workflow.knime">
+<persistable uri="knime://LOCAL/KNIME_project4/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/KNIME_project3/workflow.knime">
+<persistable uri="knime://LOCAL/KNIME_project3/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/KNIME_project2/KNIME_project2/workflow.knime">
+<persistable uri="knime://LOCAL/KNIME_project2/KNIME_project2/workflow.knime"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/KNIME_project/workflow.knime">
 <persistable uri="knime://LOCAL/KNIME_project/workflow.knime"/>
 </file>
